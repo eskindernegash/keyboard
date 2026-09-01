@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>keyBoard</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        width: 100vw;
+        background: #222210;
+        color: #ccc;
+        font-size: 1.5rem;
+      }
+
+      html {
+        font-size: 95%;
+      }
+      .container {
+        padding: 2rem;
+        max-width: 1000px;
+        width: 100%;
+        height: 22rem;
+        background-color: #222210;
+        border-radius: 1rem;
+        position: relative;
+      }
+      .toggle-css {
+        position: absolute;
+        top: 3rem;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0.6rem 2rem;
+        background: #565626;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+      .toggle-css:hover {
+        background: #45451f;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button id="toggle-css" class="toggle-css">With Out CSS</button>
+    <div class="container">
+      <span class="tabs ctrol">
+        <i>Tab</i>
+        <i>&ensp;</i>
+      </span>
+      <span><i>q</i> </span>
+      <span><i>w</i> </span>
+      <span><i>e</i> </span>
+      <span><i>r</i> </span>
+      <span><i>t</i> </span>
+      <span><i>y</i> </span>
+      <span><i>u</i> </span>
+      <span><i>i</i> </span>
+      <span><i>o</i> </span>
+      <span><i>p</i> </span>
+      <span>
+        <i>{</i>
+        <i class="duables">[</i>
+      </span>
+      <span>
+        <i>}</i>
+        <i class="duables">]</i>
+      </span>
+      <span class="slash">
+        <i>|</i>
+        <i class="duables">\</i>
+      </span>
+      <br />
+      <span class="caps ctrol"><i>Caps Lock</i> </span>
+      <span><i>a</i> </span>
+      <span><i>s</i> </span>
+      <span><i>d</i> </span>
+      <span><i>f</i> </span>
+      <span><i>g</i> </span>
+      <span><i>h</i> </span>
+      <span><i>j</i> </span>
+      <span><i>k</i> </span>
+      <span><i>l</i> </span>
+      <span>
+        <i>:</i>
+        <i class="duables">;</i>
+      </span>
+      <span>
+        <i>"</i>
+        <i class="duables">'</i>
+      </span>
+      <span class="enter">
+        <i>&#8629;</i>
+        <i>Enter</i>
+      </span>
+      <br />
+      <span class="shifts">
+        <i>Shift</i>
+        <i>&#8593;</i>
+      </span>
+      <span><i>z</i> </span>
+      <span><i>x</i> </span>
+      <span><i>c</i> </span>
+      <span><i>v</i> </span>
+      <span><i>b</i> </span>
+      <span><i>n</i> </span>
+      <span><i>m</i> </span>
+      <span class="less">
+        <i>&#60;</i>
+        <i class="duables">,</i>
+      </span>
+      <span class="greater">
+        <i>&#62;</i>
+        <i class="duables">.</i>
+      </span>
+      <span class="question">
+        <i>?</i>
+        <i class="duables">/</i>
+      </span>
+      <span class="shiftr">
+        <i>Shift</i>
+        <i>&#8593;</i>
+      </span>
+      <br />
+      <span class="ctrl ctrol"><i>Ctrl</i> </span>
+      <span class="fn ctrol"><i>fn</i> </span>
+      <span class="win ctrol"><i>Win</i> </span>
+      <span class="alt ctrol"><i>Alt</i> </span>
+      <span class="space"><i>Space</i> </span>
+      <span class="alt ctrol"><i>Alt</i> </span>
+      <span class="ctrl ctrol"><i>Ctrl</i> </span>
+      <span><i>&#10092;</i> </span>
+      <span class="updown">
+        <i>&#10092;</i>
+        <i>&#10093;</i>
+      </span>
+      <span class="arrowR"><i>&#10093;</i> </span>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
